@@ -1,5 +1,16 @@
 <template name="home">
 
-	This is home
+	<h2 class="text-center">Featured products</h2>
+	
+	<hr class="custom-separator">
+	
+	{{#each products}}
+	
+		{{name}}
+		
+	{{else}}
+		<p>There are no products</p>
+	
+	{{/each}}
 	
 </template>

@@ -51,9 +51,30 @@ code {
 
 .sidebar, .main-content {
 	background: rgba(255, 255, 255, 0.75);
+	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px 2px rgba(226, 178, 6, 0.9);
 	padding: 10px;
 }
 
+.list-group-item {
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.6)
+}
 
+hr.custom-separator { 
+	padding: 0; 
+	border: none; 
+	border-top: medium double #333; 
+	color: #333; 
+	text-align: center; 
+} 
+
+hr.custom-separator:after { 
+	content: "§"; 
+	display: inline-block; 
+	position: relative; 
+	top: -0.7em; 
+	font-size: 1.5em; 
+	padding: 0 0.25em; 
+	background: transparent; 
+}

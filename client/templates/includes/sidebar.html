@@ -1,5 +1,10 @@
 <template name="sidebar">
 
-	This is sidebar
+	<h3 class="text-center">Product Categories</h3>
+	<div class="list-group">
+		{{#each categories}}
+			<a href="/categores/{{slug}}" class="list-group-item">{{name}}</a>
+		{{/each}}
+	</div>
 
 </template>
