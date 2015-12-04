@@ -1,0 +1,28 @@
+<body>
+	
+	{{renderPage}}
+	
+</body>
+
+<template name="layout">
+
+	{{> navbar}}
+
+	<div class="container">
+		<div class="rotw">
+			<div class="col-md-3 sidebar">
+				
+				{{> sidebar}}
+				
+			</div>
+			<div class="col-md-8 col-md-offset-1 main-content">
+				
+				{{> yield}}
+				
+			</div>
+		</div>
+	</div>
+	
+	{{> footer}}
+
+</template>
