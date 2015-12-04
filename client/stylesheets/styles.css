@@ -78,3 +78,19 @@ hr.custom-separator:after {
 	padding: 0 0.25em; 
 	background: transparent; 
 }
+
+.full {
+	width: 100%;
+}
+
+.product-row {
+	border-bottom: #999 1px solid;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.stars {
+	margin-bottom: 5px;
+	width: 120px;
+	background: #000;
+}
